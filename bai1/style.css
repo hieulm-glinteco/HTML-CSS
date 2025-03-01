@@ -138,6 +138,7 @@ hr{
 }
 
 .menu .menu-three{
+    margin-right: 10px;
     width: 20%;
     /* border: 1px solid black; */
     display: flex;
@@ -155,10 +156,46 @@ hr{
 }
 
 .section-one .star{
-    height: 50%;
+    width: 60%;
+    height: 30%;
     border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    background: yellow;
 }
 
 .section-one .profile{
     height: 30%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
 }
+
+.section-one .profile .contact div{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: blanchedalmond;
+}
+
+.section-one .profile .about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-one .profile .about .image img{
+    margin-top: -30px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.section-one .profile .about .name span{
+    margin-left: 10px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+
+
